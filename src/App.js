@@ -22,6 +22,14 @@ const pets = [
   },
 ];
 
+pets.push({
+  id: 3,
+  name: "Telephone",
+  image:
+    "https://geniusvets.s3.amazonaws.com/gv-dog-breeds/english-bulldog-1.jpg",
+  snacks: ["Bugs"],
+});
+
 function App() {
   const petCards = pets.map((petObj) => {
     return (

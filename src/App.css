@@ -17,4 +17,5 @@ header {
 }
 .card img {
   height: 12rem;
+  max-width: 20rem;
 }
