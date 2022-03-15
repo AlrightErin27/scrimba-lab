@@ -6,8 +6,13 @@ body {
 header {
   background-color: #e4e8f0;
 }
+
 .card {
   background-color: rgb(154, 154, 220);
-  max-width: 50vw;
-  min-height: 30vh;
+  width: 50vw;
+  height: 30vh;
+  margin-top: 5vh;
+}
+.card img {
+  height: 12rem;
 }
