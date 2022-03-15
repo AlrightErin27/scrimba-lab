@@ -9,9 +9,11 @@ header {
 
 .card {
   background-color: rgb(154, 154, 220);
-  width: 50vw;
-  height: 30vh;
+  min-width: 50vw;
+  min-height: 30vh;
   margin-top: 5vh;
+  margin: 5vh;
+  border: 3px rgb(135, 40, 40) solid;
 }
 .card img {
   height: 12rem;
